@@ -9,6 +9,7 @@ finish-args:
   - --socket=wayland
   - --socket=fallback-x11
   - --socket=pulseaudio
+  - --socket=ssh-auth
   - --filesystem=home
   - --share=network
 # Annoyingly needed for older flatpak releases
